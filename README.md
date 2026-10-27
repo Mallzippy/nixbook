@@ -15,9 +15,13 @@ If you want to use my configuration make sure to:
 sudo nixos-rebuild switch --flake .#nixbook
 ```
 
+## Credit
+
+Full credit goes to [Vimjoyer](https://www.youtube.com/@vimjoyer) for teaching me how to use NixOS with his excellent tutorials and simple example configurations.
+
 ## Attribution
 
-You may copy my configuration without attribution, although I would appreaciate it if you linked to this repository in some way.
+You may copy my configuration without attribution, although I would appreciate it if you linked to this repository in some way.
 
 ## License
 
