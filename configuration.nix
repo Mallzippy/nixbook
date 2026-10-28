@@ -68,7 +68,6 @@
     neovim
     alacritty
     fastfetch
-    noctalia
     jujutsu
     git
   ];
