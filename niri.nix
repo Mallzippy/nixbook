@@ -1,6 +1,13 @@
 { config, ... }:
 {
   programs.niri.settings = {
+    includes = [
+      {
+        path = "/home/jan/.config/niri/noctalia.kdl";
+        optional = true;
+      }
+    ];
+
     binds = with config.lib.niri.actions; {
       "Mod+Shift+Slash".action = show-hotkey-overlay;
       "Mod+Return".action = spawn "alacritty";

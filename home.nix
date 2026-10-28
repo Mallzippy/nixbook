@@ -11,6 +11,10 @@
 
     settings = { # This may also be a string or path to a .toml file.
       theme = {
+        templates = {
+          enable_builtin_templates = true;
+          builtin_ids = [ "niri" ];
+        };
         mode = "dark";
 	source = "builtin";
 	builtin = "Gruvbox";
