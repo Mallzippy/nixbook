@@ -13,6 +13,11 @@
       url = "github:noctalia-dev/noctalia";
       inputs.nixpkgs.follows = "nixpkgs"; # this line is optional, prevents downloading two versions of nixpkgs but disables cache
     };
+
+    niri = {
+      url = "github:epireyn/niri-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, ... }@inputs: {
@@ -23,6 +28,7 @@
       modules = [
         ./configuration.nix
         inputs.home-manager.nixosModules.default
+	inputs.niri.nixosModules.niri
       ];
     };
   };
