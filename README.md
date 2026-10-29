@@ -17,7 +17,8 @@ sudo nixos-rebuild switch --flake .#nixbook
 
 ## Credit
 
-Full credit goes to [Vimjoyer](https://www.youtube.com/@vimjoyer) for teaching me how to use NixOS with his excellent tutorials and simple example configurations.
+Credit to [Neytirix](https://deviantart.com/neytirix) for the wallpaper.
+Credit to [Vimjoyer](https://www.youtube.com/@vimjoyer) for teaching me how to use NixOS with his great tutorials and simple example configurations.
 
 ## Attribution
 
