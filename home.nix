@@ -13,7 +13,10 @@
       theme = {
         templates = {
           enable_builtin_templates = true;
-          builtin_ids = [ "niri" ];
+          builtin_ids = [
+	    "niri"
+	    "alacritty"
+	  ];
         };
         mode = "dark";
 	source = "builtin";
