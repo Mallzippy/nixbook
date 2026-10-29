@@ -7,6 +7,8 @@
 {
 
   programs.niri.enable = true;
+  programs.fish.enable = true;
+  users.users.jan.shell = pkgs.fish;
 
   imports =
     [ # Include the results of the hardware scan.

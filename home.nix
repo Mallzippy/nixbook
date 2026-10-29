@@ -32,6 +32,19 @@
     };
   };
 
+  programs.fish = {
+    enable = true;
+
+    interactiveShellInit = ''
+      set -g fish_greeting
+      fastfetch
+    '';
+
+    shellAbbrs = {
+      rebuild = "sudo nixos-rebuild switch --flake ~/nixbook";
+    };
+  };
+
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "jan";
