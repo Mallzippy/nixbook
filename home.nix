@@ -27,6 +27,8 @@
         enabled = true;
 	default.path = "~/nixbook/wallpaper.jpg";
       };
+
+      bar.main.margin_ends = 0;
     };
   };
 
