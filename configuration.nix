@@ -77,6 +77,7 @@
     jujutsu
     git
     librewolf # If Librewolf breaks websites that you use, replace it with brave.
+    vlc
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
