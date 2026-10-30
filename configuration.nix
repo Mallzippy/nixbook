@@ -78,6 +78,7 @@
     git
     librewolf # If Librewolf breaks websites that you use, replace it with brave.
     vlc
+    libreoffice-qt6-fresh # You could also use GTK3 (libreoffice-fresh) but Qt6 works best for me
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
