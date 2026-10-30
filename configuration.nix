@@ -30,8 +30,12 @@
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
 
-  # Enable networking
+  # Enable networking, bluetooth, printing and power services
   networking.networkmanager.enable = true;
+  hardware.bluetooth.enable = true;
+  services.power-profiles-daemon.enable = true;
+  services.upower.enable = true;
+  services.printing.enable = true;
 
   # Set your time zone.
   time.timeZone = "Africa/Windhoek";
